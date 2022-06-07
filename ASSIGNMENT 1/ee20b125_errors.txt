@@ -1,0 +1,15 @@
+The main function is missing
+(Corrected by adding #include<math.h> under #include<stdio.h>)
+int main() is missing.
+(Corrected by adding int main() under #include<math.h>)
+It would be better to take p and t as float variables
+(Corrected by adding float p,t;)
+r is not mentioned as variable in float.
+(Corrected by adding float r;)
+; is missing after scanf("%d",&p)
+(Corrected by adding scanf("%f",&p);)
+The formula for maturity amount is wrong. It is simple interest that is being calculated first.
+(Corrected by adding another variable i which stands for simple interest that is float i;
+and replacing m in the formula to i = p*r/100*t/365)
+Calculation of maturity amount is missing
+(Corrected by adding m = i + p; and adding printf("Maturity amount is Rs %f\n",m);)
